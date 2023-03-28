@@ -5,7 +5,8 @@ import './index.css';
 // import UseStateApp from './useState/App'
 // import UseEffectApp from './useEffect/App'
 // import UseRefApp from './useRef/App'
-import UseRefApp from './useRef/DOM/App'
+//import UseRefApp from './useRef/DOM/App '
+import UseContextApp from './useContext/App'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +14,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <UseStateApp/> */}
-    <UseRefApp/>
+    {/* <UseRefApp/> */}
+    <UseContextApp/>
   </React.StrictMode>
 );
 
